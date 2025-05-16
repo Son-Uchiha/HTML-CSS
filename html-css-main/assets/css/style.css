@@ -68,9 +68,13 @@ a {
   display: inline-block;
   padding: 11px 41px;
   color: #fff;
-  min-width: 144px;
+  min-width: 118px;
   font-size: 1.6rem;
   font-weight: 600;
   border-radius: 24.5px;
   background: #171100;
+}
+
+.btn-sign-up {
+  min-width: 144px;
 }
