@@ -20,12 +20,11 @@ a {
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .btn {
   display: inline-block;
-  padding: 11px 41px;
   color: #fff;
   min-width: 118px;
   font-size: 1.6rem;
@@ -35,10 +34,20 @@ a {
 }
 
 /* Header */
+.header {
+  background: #fffcf4;
+}
+
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+
 .header .body {
   display: flex;
   align-items: center;
   line-height: 28px;
+  padding: 36px 0 8px;
 }
 
 .nav {
@@ -76,5 +85,7 @@ a {
 }
 
 .btn-sign-up {
+  padding: 11px 41px;
   min-width: 144px;
+  margin-left: 49px;
 }
